@@ -39,10 +39,20 @@ export class KnightsTour {
 
     public getNextAvailableMoves(row: number, column: number) {
 
-        let positons: object = [[0,1], [0,3], [1,4], [3,4], [4,3], [4,1], [1,0], [3,0] ];
+        let testPositons: object = [[0,1], [0,3], [1,4], [3,4], [4,3], [4,1], [1,0], [3,0] ];
+
+        let positions: object = [];
+
+        this.getMove()
 
 
-        row
+
+
+    }
+
+    public getMove(firstDirection: number, secondDirection: number) {
+
+
 
 
 
