@@ -2,6 +2,8 @@
 
 export class Cell {
 
+    private _wasVisited: boolean = false;
+
     public get wasVisited(): boolean {
 
         return this._wasVisited;
@@ -13,8 +15,5 @@ export class Cell {
         this._wasVisited = value;
 
     }
-
-    private _wasVisited: boolean = false;
-
 
 }
